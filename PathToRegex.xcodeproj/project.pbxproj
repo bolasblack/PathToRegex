@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		018B79DB1CEB839900819318 /* Regex.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 018B79DA1CEB839900819318 /* Regex.framework */; };
+		018B79DC1CEB83E000819318 /* PathToRegex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E7DAE11C690B0E00C5D00A /* PathToRegex.swift */; };
+		018B7A031CEC02A100819318 /* PathToRegex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E7DAE11C690B0E00C5D00A /* PathToRegex.swift */; };
+		018B7A061CEC02C000819318 /* PathToRegex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E7DAE11C690B0E00C5D00A /* PathToRegex.swift */; };
+		018B7A081CEC02CD00819318 /* Regex.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 018B7A071CEC02CD00819318 /* Regex.framework */; };
+		018B7A091CEC031600819318 /* Regex.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 018B7A041CEC02B900819318 /* Regex.framework */; };
 		65E7DAD21C690A4300C5D00A /* PathToRegex.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65E7DAC71C690A4300C5D00A /* PathToRegex.framework */; };
 		65E7DAD71C690A4300C5D00A /* PathToRegexTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E7DAD61C690A4300C5D00A /* PathToRegexTests.swift */; };
 		65E7DAE21C690B0E00C5D00A /* PathToRegex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E7DAE11C690B0E00C5D00A /* PathToRegex.swift */; };
@@ -41,9 +47,15 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		018B79C31CEB834900819318 /* PathToRegex.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PathToRegex.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		018B79DA1CEB839900819318 /* Regex.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Regex.framework; path = Carthage/Build/iOS/Regex.framework; sourceTree = "<group>"; };
+		018B79EE1CEB88F600819318 /* PathToRegex.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PathToRegex.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		018B79FB1CEC001000819318 /* PathToRegex.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PathToRegex.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		018B7A041CEC02B900819318 /* Regex.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Regex.framework; path = Carthage/Build/tvOS/Regex.framework; sourceTree = "<group>"; };
+		018B7A071CEC02CD00819318 /* Regex.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Regex.framework; path = Carthage/Build/watchOS/Regex.framework; sourceTree = "<group>"; };
 		65E7DAC71C690A4300C5D00A /* PathToRegex.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PathToRegex.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		65E7DACC1C690A4300C5D00A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		65E7DAD11C690A4300C5D00A /* PathToRegexTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PathToRegexTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		65E7DAD11C690A4300C5D00A /* PathToRegexTests-OSX.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PathToRegexTests-OSX.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		65E7DAD61C690A4300C5D00A /* PathToRegexTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathToRegexTests.swift; sourceTree = "<group>"; };
 		65E7DAD81C690A4300C5D00A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		65E7DAE11C690B0E00C5D00A /* PathToRegex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PathToRegex.swift; sourceTree = "<group>"; };
@@ -51,6 +63,30 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		018B79BF1CEB834900819318 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				018B79DB1CEB839900819318 /* Regex.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		018B79EA1CEB88F600819318 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				018B7A091CEC031600819318 /* Regex.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		018B79F71CEC001000819318 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				018B7A081CEC02CD00819318 /* Regex.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		65E7DAC31C690A4300C5D00A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -85,7 +121,10 @@
 			isa = PBXGroup;
 			children = (
 				65E7DAC71C690A4300C5D00A /* PathToRegex.framework */,
-				65E7DAD11C690A4300C5D00A /* PathToRegexTests.xctest */,
+				65E7DAD11C690A4300C5D00A /* PathToRegexTests-OSX.xctest */,
+				018B79C31CEB834900819318 /* PathToRegex.framework */,
+				018B79EE1CEB88F600819318 /* PathToRegex.framework */,
+				018B79FB1CEC001000819318 /* PathToRegex.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -112,6 +151,9 @@
 		962A8B391C74E5B8008E2BB3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				018B7A071CEC02CD00819318 /* Regex.framework */,
+				018B7A041CEC02B900819318 /* Regex.framework */,
+				018B79DA1CEB839900819318 /* Regex.framework */,
 				65E7DAE31C690C5000C5D00A /* Regex.framework */,
 			);
 			name = Frameworks;
@@ -120,6 +162,27 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		018B79C01CEB834900819318 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		018B79EB1CEB88F600819318 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		018B79F81CEC001000819318 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		65E7DAC41C690A4300C5D00A /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -130,9 +193,63 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		65E7DAC61C690A4300C5D00A /* PathToRegex */ = {
+		018B79C21CEB834900819318 /* PathToRegex-iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 65E7DADB1C690A4300C5D00A /* Build configuration list for PBXNativeTarget "PathToRegex" */;
+			buildConfigurationList = 018B79D41CEB834900819318 /* Build configuration list for PBXNativeTarget "PathToRegex-iOS" */;
+			buildPhases = (
+				018B79BE1CEB834900819318 /* Sources */,
+				018B79BF1CEB834900819318 /* Frameworks */,
+				018B79C01CEB834900819318 /* Headers */,
+				018B79C11CEB834900819318 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PathToRegex-iOS";
+			productName = "PathToRegex-iOS";
+			productReference = 018B79C31CEB834900819318 /* PathToRegex.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		018B79ED1CEB88F600819318 /* PathToRegex-tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 018B79F31CEB88F600819318 /* Build configuration list for PBXNativeTarget "PathToRegex-tvOS" */;
+			buildPhases = (
+				018B79E91CEB88F600819318 /* Sources */,
+				018B79EA1CEB88F600819318 /* Frameworks */,
+				018B79EB1CEB88F600819318 /* Headers */,
+				018B79EC1CEB88F600819318 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PathToRegex-tvOS";
+			productName = "PathToRegex-tvOS";
+			productReference = 018B79EE1CEB88F600819318 /* PathToRegex.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		018B79FA1CEC001000819318 /* PathToRegex-watchOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 018B7A001CEC001000819318 /* Build configuration list for PBXNativeTarget "PathToRegex-watchOS" */;
+			buildPhases = (
+				018B79F61CEC001000819318 /* Sources */,
+				018B79F71CEC001000819318 /* Frameworks */,
+				018B79F81CEC001000819318 /* Headers */,
+				018B79F91CEC001000819318 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PathToRegex-watchOS";
+			productName = "PathToRegexp-watchOS";
+			productReference = 018B79FB1CEC001000819318 /* PathToRegex.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		65E7DAC61C690A4300C5D00A /* PathToRegex-OSX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65E7DADB1C690A4300C5D00A /* Build configuration list for PBXNativeTarget "PathToRegex-OSX" */;
 			buildPhases = (
 				65E7DAC21C690A4300C5D00A /* Sources */,
 				65E7DAC31C690A4300C5D00A /* Frameworks */,
@@ -143,14 +260,14 @@
 			);
 			dependencies = (
 			);
-			name = PathToRegex;
+			name = "PathToRegex-OSX";
 			productName = PathToRegex;
 			productReference = 65E7DAC71C690A4300C5D00A /* PathToRegex.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		65E7DAD01C690A4300C5D00A /* PathToRegexTests */ = {
+		65E7DAD01C690A4300C5D00A /* PathToRegexTests-OSX */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 65E7DADE1C690A4300C5D00A /* Build configuration list for PBXNativeTarget "PathToRegexTests" */;
+			buildConfigurationList = 65E7DADE1C690A4300C5D00A /* Build configuration list for PBXNativeTarget "PathToRegexTests-OSX" */;
 			buildPhases = (
 				65E7DACD1C690A4300C5D00A /* Sources */,
 				65E7DACE1C690A4300C5D00A /* Frameworks */,
@@ -162,9 +279,9 @@
 			dependencies = (
 				65E7DAD41C690A4300C5D00A /* PBXTargetDependency */,
 			);
-			name = PathToRegexTests;
+			name = "PathToRegexTests-OSX";
 			productName = PathToRegexTests;
-			productReference = 65E7DAD11C690A4300C5D00A /* PathToRegexTests.xctest */;
+			productReference = 65E7DAD11C690A4300C5D00A /* PathToRegexTests-OSX.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -173,10 +290,21 @@
 		65E7DABE1C690A4300C5D00A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0720;
+				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "Crossroad Labs, LTD.";
 				TargetAttributes = {
+					018B79C21CEB834900819318 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					018B79ED1CEB88F600819318 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = MGNSK9Y7PG;
+					};
+					018B79FA1CEC001000819318 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = MGNSK9Y7PG;
+					};
 					65E7DAC61C690A4300C5D00A = {
 						CreatedOnToolsVersion = 7.2;
 					};
@@ -197,13 +325,37 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				65E7DAC61C690A4300C5D00A /* PathToRegex */,
-				65E7DAD01C690A4300C5D00A /* PathToRegexTests */,
+				65E7DAC61C690A4300C5D00A /* PathToRegex-OSX */,
+				65E7DAD01C690A4300C5D00A /* PathToRegexTests-OSX */,
+				018B79C21CEB834900819318 /* PathToRegex-iOS */,
+				018B79ED1CEB88F600819318 /* PathToRegex-tvOS */,
+				018B79FA1CEC001000819318 /* PathToRegex-watchOS */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		018B79C11CEB834900819318 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		018B79EC1CEB88F600819318 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		018B79F91CEC001000819318 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		65E7DAC51C690A4300C5D00A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -221,6 +373,30 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		018B79BE1CEB834900819318 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				018B79DC1CEB83E000819318 /* PathToRegex.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		018B79E91CEB88F600819318 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				018B7A031CEC02A100819318 /* PathToRegex.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		018B79F61CEC001000819318 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				018B7A061CEC02C000819318 /* PathToRegex.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		65E7DAC21C690A4300C5D00A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -242,12 +418,167 @@
 /* Begin PBXTargetDependency section */
 		65E7DAD41C690A4300C5D00A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 65E7DAC61C690A4300C5D00A /* PathToRegex */;
+			target = 65E7DAC61C690A4300C5D00A /* PathToRegex-OSX */;
 			targetProxy = 65E7DAD31C690A4300C5D00A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		018B79D51CEB834900819318 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/PathToRegex/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xyz.crossroadlabs.PathToRegex;
+				PRODUCT_NAME = PathToRegex;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		018B79D61CEB834900819318 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/PathToRegex/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xyz.crossroadlabs.PathToRegex;
+				PRODUCT_NAME = PathToRegex;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		018B79F41CEB88F600819318 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/tvOS",
+				);
+				INFOPLIST_FILE = PathToRegex/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xyz.crossroadlabs.PathToRegex;
+				PRODUCT_NAME = PathToRegex;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Debug;
+		};
+		018B79F51CEB88F600819318 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/tvOS",
+				);
+				INFOPLIST_FILE = PathToRegex/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xyz.crossroadlabs.PathToRegex;
+				PRODUCT_NAME = PathToRegex;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Release;
+		};
+		018B7A011CEC001000819318 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/watchOS",
+				);
+				INFOPLIST_FILE = PathToRegex/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xyz.crossroadlabs.PathToRegexp;
+				PRODUCT_NAME = PathToRegex;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Debug;
+		};
+		018B7A021CEC001000819318 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/watchOS",
+				);
+				INFOPLIST_FILE = PathToRegex/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xyz.crossroadlabs.PathToRegexp;
+				PRODUCT_NAME = PathToRegex;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Release;
+		};
 		65E7DAD91C690A4300C5D00A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -352,7 +683,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = xyz.crossroadlabs.PathToRegex;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = PathToRegex;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -376,7 +707,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = xyz.crossroadlabs.PathToRegex;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = PathToRegex;
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
@@ -414,6 +745,33 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		018B79D41CEB834900819318 /* Build configuration list for PBXNativeTarget "PathToRegex-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				018B79D51CEB834900819318 /* Debug */,
+				018B79D61CEB834900819318 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		018B79F31CEB88F600819318 /* Build configuration list for PBXNativeTarget "PathToRegex-tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				018B79F41CEB88F600819318 /* Debug */,
+				018B79F51CEB88F600819318 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		018B7A001CEC001000819318 /* Build configuration list for PBXNativeTarget "PathToRegex-watchOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				018B7A011CEC001000819318 /* Debug */,
+				018B7A021CEC001000819318 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		65E7DAC11C690A4300C5D00A /* Build configuration list for PBXProject "PathToRegex" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -423,7 +781,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		65E7DADB1C690A4300C5D00A /* Build configuration list for PBXNativeTarget "PathToRegex" */ = {
+		65E7DADB1C690A4300C5D00A /* Build configuration list for PBXNativeTarget "PathToRegex-OSX" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				65E7DADC1C690A4300C5D00A /* Debug */,
@@ -432,7 +790,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		65E7DADE1C690A4300C5D00A /* Build configuration list for PBXNativeTarget "PathToRegexTests" */ = {
+		65E7DADE1C690A4300C5D00A /* Build configuration list for PBXNativeTarget "PathToRegexTests-OSX" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				65E7DADF1C690A4300C5D00A /* Debug */,
